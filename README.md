@@ -13,12 +13,12 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
 tokenizer = AutoTokenizer.from_pretrained("moranyanuka/icc")
-model = AutoModelForSequenceClassification.from_pretrained("moranyanuka/icc).to("cuda")
+model = AutoModelForSequenceClassification.from_pretrained("moranyanuka/icc").to("cuda")
 
 captions = ["a great method of quantifying concreteness", "a man with a white shirt"]
-text_ids = tokenizer(captions, padding=True, return_tensors="pt", truncation=True).to('cuda')
+text_ids = tokenizer(captions, padding=True, return_tensors="pt", truncation=True).to("cuda")
 with torch.inference_mode():
-  icc_scores = model(**text_ids)['logits']
+  icc_scores = model(**text_ids)["logits"]
 
 # tensor([[0.0339], [1.0068]])
 ```
