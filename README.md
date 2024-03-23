@@ -1,8 +1,8 @@
-# icc_code
-Official Code for the paper ICC: Quantifying Image Caption Concreteness for Multimodal Dataset Curation
+# ICC code
+Official Code for the paper [ICC: Quantifying Image Caption Concreteness for Multimodal Dataset Curation](https://arxiv.org/abs/2403.01306)
 
 # Release
-We will soon release the code needed to replicate our [paper](https://arxiv.org/abs/2403.01306). 
+We will soon release the code needed to replicate our paper. 
 
 For now, we release the ICC model.
 
