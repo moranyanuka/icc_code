@@ -4,7 +4,7 @@ Official Code for the paper [ICC: Quantifying Image Caption Concreteness for Mul
 # Release
 We will soon release the code needed to replicate our paper. 
 
-For now, we release the ICC model.
+For now, we release the ICC model on huggingface [here](https://huggingface.co/moranyanuka/icc).
 
 # Running the ICC model with Huggingface 🤗
 
