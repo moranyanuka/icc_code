@@ -2,7 +2,7 @@
 Official Code for the paper [ICC: Quantifying Image Caption Concreteness for Multimodal Dataset Curation](https://arxiv.org/abs/2403.01306)
 
 # Release
-We will soon release the code needed to replicate our paper. 
+We will soon release the code needed to reproduce our paper. 
 
 For now, we release the ICC model on huggingface [here](https://huggingface.co/moranyanuka/icc).
 
