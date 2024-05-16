@@ -1,6 +1,9 @@
-# ICC code
-Official Code for the paper [ICC: Quantifying Image Caption Concreteness for Multimodal Dataset Curation](https://arxiv.org/abs/2403.01306)
+# *ICC*: Quantifying Image Caption Concreteness for Multimodal Dataset Curation (*findings of ACL 2024*)
+This is the official repository for the findings of ACL 2024 paper:
 
+**ICC: Quantifying Image Caption Concreteness for Multimodal Dataset Curation**
+
+[Project Page](https://moranyanuka.github.io/icc/) | [Paper](https://arxiv.org/abs/2403.01306)
 # Release
 We will soon release the code needed to reproduce our paper. 
 
