@@ -1,5 +1,5 @@
 # ICC: Quantifying Image Caption Concreteness for Multimodal Dataset Curation
-This is the official repository for the findings of ACL 2024 paper:
+This is the official repository for the Findings of ACL 2024 paper:
 
 **ICC: Quantifying Image Caption Concreteness for Multimodal Dataset Curation**
 
