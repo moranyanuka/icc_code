@@ -7,7 +7,7 @@ This is the official repository for the Findings of ACL 2024 paper:
 # Release
 We will soon release the code needed to reproduce our paper. 
 
-For now, we release the ICC model on huggingface [here](https://huggingface.co/moranyanuka/icc).
+For now, we release the *ICC* model on huggingFace [here](https://huggingface.co/moranyanuka/icc).
 
 # Running the ICC model with Huggingface 🤗
 *ICC* model can be run with a few lines of code using Huggingface:
