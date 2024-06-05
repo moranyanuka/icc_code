@@ -8,7 +8,7 @@ We will soon release the code needed to reproduce our paper.
 
 For now, we release the *ICC* model on huggingFace [here](https://huggingface.co/moranyanuka/icc).
 
-# Running the ICC model with Huggingface 🤗
+# Running the ICC model with HuggingFace 🤗
 *ICC* model can be run with a few lines of code using HuggingFace:
 ```python
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
