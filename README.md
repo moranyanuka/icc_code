@@ -1,16 +1,15 @@
-# ICC: Quantifying Image Caption Concreteness for Multimodal Dataset Curation
-This is the official repository for the Findings of ACL 2024 paper:
+# ICC: Quantifying Image Caption Concreteness  <br />  for Multimodal Dataset Curation
 
-**ICC: Quantifying Image Caption Concreteness for Multimodal Dataset Curation**
+**ACL 2024 (Findings)** 
 
-[Project Page](https://moranyanuka.github.io/icc/) | [Paper](https://arxiv.org/abs/2403.01306)
+[Project Page](https://moranyanuka.github.io/icc/) &nbsp; &nbsp; [Paper](https://arxiv.org/abs/2403.01306)
 # Release
 We will soon release the code needed to reproduce our paper. 
 
 For now, we release the *ICC* model on huggingFace [here](https://huggingface.co/moranyanuka/icc).
 
 # Running the ICC model with Huggingface 🤗
-*ICC* model can be run with a few lines of code using Huggingface:
+*ICC* model can be run with a few lines of code using HuggingFace:
 ```python
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
