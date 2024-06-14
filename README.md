@@ -54,13 +54,11 @@ Run the following command:
 ```Shell
 torchrun --nnodes 1 --nproc_per_node 1 --master_port 25000 sba/train/train_mem.py 
          --model_name_or_path meta-llama/Llama-2-7b-hf 
-         --cache_dir <path-to-hf-cache_dir (defaults to None)>
-         --train_data_path data/cc3m_concept_balanced_train.csv
          --text_tower openai/clip-vit-large-patch14 
          --evaluation_strategy no 
          --tune_mm_mlp_adapter True 
          --mm_text_select_layer -2 
-         --bf16 True 
+         --train_data_path data/cc3m_concept_balanced_train.csv
          --output_dir <path-to-model-output-dir>
          --num_train_epochs 2
          --per_device_train_batch_size 32 
@@ -70,6 +68,7 @@ torchrun --nnodes 1 --nproc_per_node 1 --master_port 25000 sba/train/train_mem.p
          --save_strategy steps 
          --save_steps 500 
          --save_total_limit 1 
+         --bf16 True 
          --learning_rate 2e-3 
          --weight_decay 0. 
          --warmup_ratio 0.03 
@@ -79,6 +78,7 @@ torchrun --nnodes 1 --nproc_per_node 1 --master_port 25000 sba/train/train_mem.p
          --model_max_length 2048 
          --gradient_checkpointing True 
          --lazy_preprocess True 
+         --cache_dir <path-to-hf-cache_dir (defaults to None)>
          --report_to wandb
 ```
 
