@@ -28,6 +28,9 @@ with torch.inference_mode():
 
 If you just want to filter your multimodal dataset, you can stop here. Otherwise, follow the below instructions.
 
+# Concreteness Annotations Dataset
+The annotated captions, along with their corresponding *ICC* scores, can be found [here](data/caption_concreteness_annotations.csv)
+
 # Setup
 ## Clone Project
 ```
