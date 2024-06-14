@@ -8,11 +8,6 @@
 
 <a href="https://arxiv.org/abs/2403.01306"><img src="https://img.shields.io/badge/arXiv-2311.13608-b31b1b.svg"></a>
 
-# Release
-We will soon release the code needed to reproduce our paper. 
-
-we release the *ICC* model on huggingFace [here](https://huggingface.co/moranyanuka/icc).
-
 
 # Running the ICC model with HuggingFace 🤗
 *ICC* model can be run with a few lines of code using HuggingFace:
