@@ -9,7 +9,9 @@
 <a href="https://arxiv.org/abs/2403.01306"><img src="https://img.shields.io/badge/arXiv-2403.01306-b31b1b.svg"></a>
 
 
-# Running the ICC model with HuggingFace 🤗
+# Running the *ICC* model with HuggingFace 🤗
+We release the model in HuggingFace [here](https://huggingface.co/moranyanuka/icc).
+
 *ICC* model can be run with a few lines of code using HuggingFace:
 ```python
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
