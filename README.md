@@ -96,6 +96,7 @@ python sba/eval/sba_inference.py
        --cache_dir <path-to-hf-cache_dir (default is None)>
        --num_beams <num-beams>
        --batch_size <batch-size>
+       --output-path data/cc3m_concept_balanced_test_with_sba_predictions.csv
 ```
 
 This will generate a new file, with the reconstructed SBA captions, and the corresponding edit-distance between the reconstructions and original captions.
