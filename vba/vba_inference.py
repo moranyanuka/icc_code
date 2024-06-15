@@ -37,6 +37,7 @@ def generate_dataset(args):
     df = pd.read_csv(args.data_dir)
     df = df.set_index(df.index // args.batch_size).copy()
     out_captions = []
+    prompts = ['a photo of ' for _ in range(args.batch_size)]
     for i in tqdm(range(int(df.index.max()+1))):
         captions = df.loc[i].caption.tolist()
         #captions = [str(caption) for caption in captions]
@@ -46,7 +47,6 @@ def generate_dataset(args):
                 num_images_per_prompt=1,
                 **SD_KWARGS
             )
-        prompts = ['a photo of ' for _ in range(args.batch_size)]
         inputs = processor(text=prompts, images=out.images, return_tensors="pt").to(device, torch.float16)
         with torch.no_grad():
             generated_ids = captioning_model.generate(**inputs, num_beams=args.num_beams)
