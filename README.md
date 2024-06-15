@@ -89,7 +89,7 @@ In case you don't have sufficient GPU memory, try decreasing the batch size, and
 
 ## SBA inference
 
-To generate the reconstructed caption through the SBA, run:
+To generate the reconstructed caption through the trained SBA, run:
 ```Shell
 python sba/eval/sba_inference.py
        --model_path <path-to-trained-sba-model>
@@ -103,7 +103,7 @@ This will generate a new file, with the reconstructed SBA captions, and the corr
 
 # VBA
 
-We provide an example script for generating the reconstructed captions throught the VBA with BLIP2 captioner and stable diffusion 2 as the text-to-image model.
+We provide an example script for generating the reconstructed captions through the VBA with BLIP2 captioner and stable diffusion 2 as the text-to-image model.
 
 Simply run:
 
