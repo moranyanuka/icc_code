@@ -40,7 +40,6 @@ def generate_dataset(args):
     prompts = ['a photo of ' for _ in range(args.batch_size)]
     for i in tqdm(range(int(df.index.max()+1))):
         captions = df.loc[i].caption.tolist()
-        #captions = [str(caption) for caption in captions]
         with torch.no_grad():
             out = pipe(
                 captions,
