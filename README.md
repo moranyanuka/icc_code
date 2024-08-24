@@ -2,6 +2,12 @@
 
 **ACL 2024 (Findings)** 
 
+<a href="https://scholar.google.com/citations?user=ZsXf6OMAAAAJ&hl=en">Moran Yanuka</a>,
+<a href="https://morrisalp.github.io/">Morris Alper</a>,
+<a href="https://www.elor.sites.tau.ac.il/">Hadar Averbuch-Elor</a>
+<a href="https://www.giryes.sites.tau.ac.il/">Raja Giryes</a>,
+
+
 <!-- [Project Page](https://moranyanuka.github.io/icc/) &nbsp; &nbsp; [Paper](https://arxiv.org/abs/2403.01306) -->
 
 <a href="https://moranyanuka.github.io/icc/"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=blue"></a>
