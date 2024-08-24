@@ -4,7 +4,7 @@
 
 <a href="https://scholar.google.com/citations?user=ZsXf6OMAAAAJ&hl=en">Moran Yanuka</a>,
 <a href="https://morrisalp.github.io/">Morris Alper</a>,
-<a href="https://www.elor.sites.tau.ac.il/">Hadar Averbuch-Elor</a>
+<a href="https://www.elor.sites.tau.ac.il/">Hadar Averbuch-Elor</a>,
 <a href="https://www.giryes.sites.tau.ac.il/">Raja Giryes</a>
 
 
